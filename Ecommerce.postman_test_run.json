@@ -1,0 +1,111 @@
+{
+	"id": "9d3d95b3-4534-4995-9231-29cb744d8333",
+	"name": "Ecommerce",
+	"timestamp": "2022-03-13T08:00:14.726Z",
+	"collection_id": "19955291-787bfaa5-cac9-439c-8390-88f407247bb1",
+	"folder_id": "19955291-fdc8f8de-cebf-4ca1-8175-29b10c6a450a",
+	"environment_id": "19955291-48791754-8c6d-464d-972d-e8b30d8bb774",
+	"totalPass": 12,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "8fb27ebe-418f-4024-be90-f9491ecb45ae",
+			"name": "Login",
+			"time": 4370,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"expiresIn": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 4,
+					"fail": 0
+				},
+				"expiresIn": {
+					"pass": 4,
+					"fail": 0
+				}
+			},
+			"times": [
+				3506,
+				3978,
+				3770,
+				4370
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"expiresIn": true
+				},
+				{
+					"Status code is 200": true,
+					"expiresIn": true
+				},
+				{
+					"Status code is 200": true,
+					"expiresIn": true
+				},
+				{
+					"Status code is 200": true,
+					"expiresIn": true
+				}
+			]
+		},
+		{
+			"id": "394ef07f-9fd0-4faa-a6ee-9113311aa475",
+			"name": "Get All Users",
+			"time": 1749,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 4,
+					"fail": 0
+				}
+			},
+			"times": [
+				1730,
+				1744,
+				1744,
+				1749
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				}
+			]
+		}
+	],
+	"count": 4,
+	"totalTime": 22591,
+	"collection": {
+		"requests": [
+			{
+				"id": "8fb27ebe-418f-4024-be90-f9491ecb45ae",
+				"method": "POST"
+			},
+			{
+				"id": "394ef07f-9fd0-4faa-a6ee-9113311aa475",
+				"method": "GET"
+			}
+		]
+	}
+}

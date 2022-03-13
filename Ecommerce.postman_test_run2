@@ -1,0 +1,186 @@
+{
+	"id": "be1a806a-5c64-46fa-bfd2-1592ce123979",
+	"name": "Ecommerce",
+	"timestamp": "2022-03-13T08:07:34.513Z",
+	"collection_id": "19955291-787bfaa5-cac9-439c-8390-88f407247bb1",
+	"folder_id": "19955291-1b54c849-42ca-40c1-9f5a-be416b89b58f",
+	"environment_id": "19955291-48791754-8c6d-464d-972d-e8b30d8bb774",
+	"totalPass": 16,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "1b774c68-8d0b-4361-a7c3-aa844e7f016f",
+			"name": "Get All Products",
+			"time": 2276,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 4,
+					"fail": 0
+				}
+			},
+			"times": [
+				2881,
+				2254,
+				2219,
+				2276
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "f5aa9757-fd91-4753-94ac-e358d6390b1d",
+			"name": "Create Product",
+			"time": 752,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 4,
+					"fail": 0
+				}
+			},
+			"times": [
+				791,
+				752,
+				767,
+				752
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "da176f48-a97f-4b5b-a3c1-eedb7bf831bb",
+			"name": "Get Product By ID",
+			"time": 754,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 4,
+					"fail": 0
+				}
+			},
+			"times": [
+				767,
+				772,
+				764,
+				754
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "d46d4fc7-c2ff-4881-84ea-60534897b98f",
+			"name": "Update Product By Id",
+			"time": 777,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 4,
+					"fail": 0
+				}
+			},
+			"times": [
+				767,
+				764,
+				760,
+				777
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				}
+			]
+		}
+	],
+	"count": 4,
+	"totalTime": 18817,
+	"collection": {
+		"requests": [
+			{
+				"id": "1b774c68-8d0b-4361-a7c3-aa844e7f016f",
+				"method": "GET"
+			},
+			{
+				"id": "f5aa9757-fd91-4753-94ac-e358d6390b1d",
+				"method": "POST"
+			},
+			{
+				"id": "da176f48-a97f-4b5b-a3c1-eedb7bf831bb",
+				"method": "GET"
+			},
+			{
+				"id": "d46d4fc7-c2ff-4881-84ea-60534897b98f",
+				"method": "PATCH"
+			}
+		]
+	}
+}
